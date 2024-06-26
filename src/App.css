@@ -1,0 +1,37 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.box-container {
+  display: flex;
+}
+
+.box {
+  position: relative;
+  padding: 1rem;
+  border: 1px solid white;
+  border-radius: 0.5rem;
+}
+
+.gap {
+  width: 2rem;
+  height: 100%;
+  position: absolute;
+  right: -1rem;
+  top: 0;
+  z-index: 10;
+}
+
+.gap:hover {
+  background-color: rgba(100, 100, 0, 0.5);
+}
+
+.x-close {
+  position: absolute;
+  top: 0;
+  left: 6px;
+  cursor: pointer;
+}
